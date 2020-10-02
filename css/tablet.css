@@ -14,6 +14,10 @@ img,abbr,acronym,fieldset{border:0;}
    box-sizing: border-box;
 }
 
+/* 769px以下に適用されるCSS（縮小用） */
+@media screen and (max-width: 769px) {
+
+
 body {
    margin: 0;
    padding: 0;
@@ -128,8 +132,7 @@ li {
    max-height: 150%;  
 }
 
-/* 769px以下に適用されるCSS（縮小用） */
-@media screen and (max-width: 769px) {
+
   
   .swiper-wrapper{
     /* mainの位置指定 */
@@ -146,7 +149,7 @@ li {
     max-width: 150%;
     max-height: 150%;
   }
-}
+
 
 
 
@@ -274,9 +277,6 @@ h1:before {
 
 .pr_note p{ 
   margin-top: 65px;
-  /* 追加1001 */
-  margin-bottom:17px;
-
   margin-left : -240px;
   color: #000000;
   font-size: 14px;
@@ -287,7 +287,6 @@ h1:before {
 .skill {
   position: relative;
   margin:10px;
- 
   padding: 1.5rem 2rem;
   text-align: left;
   font-size : 20px;
@@ -295,14 +294,12 @@ h1:before {
   
   border: 3px solid #000;
 
-  height : 250px;
+  height : 230px;
 }
 
 .skill:before {
   font-size: 35px;
   font-size: 1.7rem;
-  
-  
   position: absolute;
   top: -24px;
   left: -3px;
@@ -318,36 +315,31 @@ h1:before {
   color: #000;
 }
 
+
+
 /* ~●○●○~ youtube ~○●○●~ */
 .video{
   /* ページ全体の中央寄せ */
   position: relative; 
   justify-content: center;
   text-align: center;  
-  display:flex; 
 
-  max-width:100%;
   margin:5em;
   
   /* ページ全体 上からの位置 */
   top:890px;
 
-  
+  display:flex; 
 }
 
 .video1 {
   /* 上下30px 左右50px */
   margin: 60px 10px; 
-
-  max-width:100%;
-  
 }
 
 .video2 {
  /* 上下30px 左右50px */
   margin: 60px 10px; 
-
-  max-width:100%;
 }
 
 
@@ -426,14 +418,14 @@ h1:before {
 
 
 
-
 /* ~●○●○~ GALLARY ~○●○●~ */
 .GALLARY{
 
    /* ページ全体の中央寄せ */
   position: relative;
-  justify-content: center;
   text-align: center;
+  justify-content: center;
+ 
 
   /* -◼️-◼️-◼️-2枚の写真の位置-◼️-◼️-◼️- */
   top:1060px;
@@ -950,7 +942,6 @@ transform: translateY(-50%) translateX(0px)  scale(1);
         width:1330px;
         height:440px;
 
-        justify-content: center;
         text-align:center;
         align-items: center;
         margin:0 auto;
@@ -959,8 +950,8 @@ transform: translateY(-50%) translateX(0px)  scale(1);
 
        /* -◼️-◼️-◼️-一番下の写真３枚の位置-◼️-◼️-◼️- */
         top:1000px; 
-       
    }
+
 .clearfix{clear:both;}
 .centerflipcards p{
  font-family:"Open Sans";
@@ -969,10 +960,10 @@ transform: translateY(-50%) translateX(0px)  scale(1);
  font-weight:700;
 }
 
-
-
 .home_last{
   color : white;
   text-align: center;
   cursor:pointer
 }
+
+}  
