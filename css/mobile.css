@@ -10,9 +10,10 @@ body {
   
 
    /* cssフォルダの中に背景画像入れないと読み込まない */
-   background-size:contain;
    background-image:url(0927_mb.png); 
-   background-repeat: no-repeat;    
+   background-repeat: no-repeat; 
+   background-size: cover;
+   background-size:contain;   
   
    
    background-color: #000000;  
@@ -92,13 +93,6 @@ li {
  
 }
 
-
-
-.swiper-container{
-
-  /* 確認用 枠線 */
-  /* border:solid #e9efff; */
-}
 
 
 /* ~●○●○~メイン画像~○●○●~ */
@@ -312,34 +306,42 @@ h1:before {
 /* ~●○●○~ youtube ~○●○●~ */
 .video{
   /* ページ全体の中央寄せ */
-  position: relative; 
+  /* position: relative;  */
   justify-content: center;
   text-align: center;   
-
  
-  
   margin:5em;
   
   /* ページ全体 上からの位置 */
-  top:890px;
+  /* top:890px; */
 
   max-width:100%;
  
 }
 
 .video1 {
+  top:890px;
+
+
   /* 上下30px 左右50px */
   margin: 60px 10px; 
-
- 
 }
 
 .video2 {
- /* 上下30px 左右50px */
-  margin: 60px 10px; 
 
-  
+  top:1390px;
+
+ /* 上下30px 左右50px */
+  margin: 60px 10px;   
 }
+
+.video1 .video2 {
+  /* position: relative;  */
+  /* display: flex;
+  flex-direction: column; */
+ 
+}
+
 
 
 .video .video1 iframe {
@@ -358,7 +360,8 @@ h1:before {
   flex-direction: column; */
   text-align: left;
   cursor:pointer; 
-}
+
+  
 
 
  button{
@@ -412,7 +415,8 @@ h1:before {
 
    color : rgb(240, 54, 147);
    font-size : 17px;
-
+   float:left;
+  
 }
 
 

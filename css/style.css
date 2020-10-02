@@ -12,6 +12,9 @@ img,abbr,acronym,fieldset{border:0;}
 
 * {
    box-sizing: border-box;
+   /* width: 70%;
+   margin-left: 15%;
+   margin-right: 15%; */
 }
 
 body {
@@ -24,6 +27,7 @@ body {
    background-image:url(0927.png); 
    background-repeat: no-repeat;    
    background-size:contain;
+   background-size: cover;
    
    background-color: #000000;  
 }
@@ -297,6 +301,14 @@ h1:before {
 
   height : 250px;
 }
+/* 415px以下に適用されるCSS（携帯　縦用） */
+@media screen and (max-width: 415px) {
+
+  .skill {
+    height : 850px;
+  }
+
+}
 
 .skill:before {
   font-size: 35px;
@@ -318,6 +330,7 @@ h1:before {
   color: #000;
 }
 
+
 /* ~●○●○~ youtube ~○●○●~ */
 .video{
   /* ページ全体の中央寄せ */
@@ -331,9 +344,8 @@ h1:before {
   
   /* ページ全体 上からの位置 */
   top:890px;
-
-  
 }
+
 
 .video1 {
   /* 上下30px 左右50px */
@@ -349,6 +361,21 @@ h1:before {
 
   max-width:100%;
 }
+
+
+/* 415px以下に適用されるCSS（携帯　縦用） */
+@media screen and (max-width: 415px) {
+  .video1 .video2 {
+    /* position: relative; 
+    display: flex;
+    flex-direction: column;
+    */
+    max-width:100%;
+  }
+
+
+
+}  
 
 
 .video .video1 iframe {
