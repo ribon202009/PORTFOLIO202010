@@ -305,7 +305,7 @@ h1:before {
   margin-bottom:17px;
 
   /* 枠に納める */
-  margin-left : -170px;
+  margin-left : -140px;
 
   color: #000000;
   font-size: 14px;
@@ -326,6 +326,7 @@ h1:before {
 
   height : 250px;
 }
+
 /* 415px以下に適用されるCSS（携帯　縦用） */
 @media screen and (max-width: 415px) {
 
@@ -552,7 +553,7 @@ h5{
   justify-content: space-between;
   
  
-   max-width:90%;
+   max-width:100%;
    height:auto;
    margin: 20px 20px;
    
@@ -573,7 +574,7 @@ h5{
    justify-content: left;
 
    
-   max-width:60%; 
+   max-width:100%; 
    height:auto;
 
    /* 位置 */
