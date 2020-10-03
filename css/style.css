@@ -1117,11 +1117,11 @@ transform: translateY(-50%) translateX(0px)  scale(1);
 
   .home_last{
     color : white;
-    margin-right :10px;
-    padding-bottom :10px;
+    /* 中央寄せ */
+    margin :3rem;
     text-align: center;
-   
-   
+
+    padding-bottom :10px;
     cursor:pointer
   }
   
