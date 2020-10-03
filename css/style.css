@@ -324,7 +324,7 @@ h1:before {
   margin-bottom:17px;
   margin-top: 5px;;
   /* 枠に納める */
-  margin-right : -70px;
+  margin-right : -100px;
   text-align: start;
   color: #000000;
   font-size: 14px;
@@ -535,17 +535,21 @@ h1:before {
   }
 
   .photoBox{
+    max-width: 100%; 
     display: flex;
   }
 
   .Photo_Box_ALL{
     flex-direction: column;
     text-align: center;
+
+     /* 中央寄せ */
+    margin : 1rem 1rem;
     width: 100%;
   }
 
   .photo_box2{
-    width: 100%; 
+    max-width: 100%; 
     height:auto;
   }  
 
