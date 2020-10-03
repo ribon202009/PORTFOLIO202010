@@ -658,9 +658,9 @@ input[type=radio] {
   cursor:pointer;
   position: relative;
 
-  max-width: 80%;
+  max-width: 100%;
 
-  width: 100%;
+  width: 90%;
   height: 100%;
   margin-bottom: 20px;
 
@@ -673,8 +673,8 @@ input[type=radio] {
   border: solid 1px #000000;
   background-color: rgb(64, 64, 65);
    
-   width : 1000px;
-   height :900px;
+   width : 900px;
+   height :800px;
 
    /* 背景色と背景の隙間 */
    margin : 0.2rem 1rem; 
@@ -1115,8 +1115,9 @@ transform: translateY(-50%) translateX(0px)  scale(1);
 
   .home_last{
     color : white;
+
     /* 中央寄せ */
-    margin :1rem 4rem;
+    position: absolute;
     text-align: center;
 
     padding-bottom :10px;
