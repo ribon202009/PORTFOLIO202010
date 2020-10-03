@@ -21,16 +21,17 @@ body {
   
 
    /* cssフォルダの中に背景画像入れないと読み込まない */
-   background-image:url(0927.png); 
+   background-image:url(1003pm.png); 
    background-repeat: no-repeat;    
    background-size:contain;
    background-size: cover;
+   background-color: #000;
 }
 
 /* 415px以下に適用されるCSS（携帯　縦用） */
 @media screen and (max-width: 415px) {
   body {
-    background-image:url(0927_mb.png); 
+    background-image:url(1003pm.png); 
     background-repeat: no-repeat;    
     background-size:contain;
     background-size: cover;
@@ -121,7 +122,7 @@ li {
     /* mainの位置指定 */
     margin-top : 83px;
     margin-left : 90px; 
-    margin-right : 30px; 
+    margin-right : 20px; 
   }
 
   .swiper-slide{
@@ -129,8 +130,8 @@ li {
     display: flex ; 
  
     /* 画像のサイズ */
-    max-width: 100%;
-    max-height: 100%;  
+    max-width: 120%;
+    max-height: 120%;  
  }
 } 
 
@@ -202,10 +203,10 @@ li {
 /* 転職活動中のタイトル */
 .job h1{
   position: relative;
-  padding: 0.6rem 2rem;
+  padding: 0.6rem 1rem;
   margin: 10px;
   margin-left:0px;
-  color: #000000;
+  color: #353434;
   font-size: 43px;
   font : ヒラギノ角ゴ Pro W3;
   border-bottom: 6px solid rgb(10, 219, 247);
@@ -227,6 +228,7 @@ h1:before {
    margin-top:10px;
    font-size:25px;
    font : ヒラギノ角ゴ Pro W3;
+   font-weight:bold;
    color: #000000;
 
     margin: 0;
@@ -324,7 +326,7 @@ h1:before {
   .skill {
     top:100px;
 
-    height : 550px;
+    height : 570px;
   }
 
 }
