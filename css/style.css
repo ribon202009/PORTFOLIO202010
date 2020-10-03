@@ -51,7 +51,6 @@ header {
    align-items: center; 
 }
 
-
 a {	
    text-decoration: none;
    color: #4b4b4b;
@@ -81,24 +80,34 @@ li {
   font-style: normal;
 }
 
+.pc-nav a:hover{
+  color: rgb(10, 219, 247);
+  cursor: pointer;
+}
+
+
+/* 415px以下に適用されるCSS（携帯　縦用） */
+@media screen and (max-width: 415px) {
+ li {
+  font-size: 17px;
+ }
+}
+
+
 .home {
   display : flex;
   position : absolute;
-  z-index: 9999; 
-  position: fixed; 
+  
   top:40px;
-
 }
+
 
 
 .home__item {
 
-  cursor:pointer; 
   /* 位置 */
    margin-left : 20px;
    margin-top: 50px;
-
-   
 
    -ms-writing-mode: tb-rl;
    writing-mode: vertical-rl;
@@ -129,7 +138,7 @@ li {
 @media screen and (max-width: 415px) {
   .swiper-wrapper{
     /* mainの位置指定 */
-    margin-top : 83px;
+    margin-top : 73px;
     margin-left : 90px; 
     margin-right : 20px; 
   }
@@ -139,8 +148,8 @@ li {
     display: flex ; 
  
     /* 画像のサイズ */
-    max-width: 120%;
-    max-height: 120%;  
+    max-width: 150%;
+    max-height: 150%;  
  }
 } 
 
@@ -192,7 +201,7 @@ li {
 @media screen and (max-width: 415px) {
   .pr_ALL{
     /* 上からの位置 */
-  top: 260px;
+    top: 260px;
   }
 }  
 
@@ -548,6 +557,10 @@ h1:before {
     height:auto;
     text-align: center;
     display: flex;
+    /*  */
+    margin-left:-0.5px;
+   
+   
   }
 
   /*⬇︎写真2つの枠 */
@@ -555,6 +568,8 @@ h1:before {
     flex-direction: column;
     /* text-align: center; */
     width: 100%;
+
+    
   }
 
   /* 写真の下の長方形の背景 */
@@ -587,7 +602,9 @@ h5{
   display: flex;
   
   /* 中央寄せ */
-  margin : 1rem 1rem;
+  margin : 1rem  1rem;
+
+  
 }
 
 
@@ -601,7 +618,7 @@ h5{
    max-width:100%;
    height:auto;
    margin: 20px 10px;
-   
+
    /* 枠線 */
   background-color: rgb(238, 236, 238);
   border:solid 0.01px rgb(219, 218, 219);
@@ -1135,7 +1152,7 @@ transform: translateY(-50%) translateX(0px)  scale(1);
 
 
        /* -◼️-◼️-◼️-一番下の写真３枚の位置-◼️-◼️-◼️- */
-        top:1200px; 
+        top:1207px; 
        
    }
 .clearfix{clear:both;}
@@ -1155,6 +1172,11 @@ transform: translateY(-50%) translateX(0px)  scale(1);
   cursor:pointer
 }
 
+.home_last a:hover{
+  color: rgb(10, 219, 247);
+  cursor: pointer;
+}
+
 
 /* 415px以下に適用されるCSS（携帯　縦用） */
 @media screen and (max-width: 415px) {
@@ -1171,9 +1193,11 @@ transform: translateY(-50%) translateX(0px)  scale(1);
     /* 中央寄せ */
     margin :3rem;
     text-align: center;
-
+/*  */
+margin-left:-15px;
+    
     padding-bottom :10px;
-    cursor:pointer
+   
   }
   
 }
