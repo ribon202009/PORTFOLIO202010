@@ -536,7 +536,18 @@ h1:before {
 
   .photoBox{
     max-width: 100%; 
+    height:auto;
+
     display: flex;
+    /* 中央寄せ */
+    text-align: center;
+    margin : 1rem 1rem;
+
+
+   
+  justify-content: space-between;
+  
+ 
   }
 
   .Photo_Box_ALL{
