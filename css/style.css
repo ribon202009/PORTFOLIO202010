@@ -74,6 +74,8 @@ li {
    font-size: 25px;
    padding : 4px;
 
+   cursor:pointer; 
+
   font-family: immi-five-o-five, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -82,15 +84,21 @@ li {
 .home {
   display : flex;
   position : absolute;
+  z-index: 9999; 
+  position: fixed; 
   top:40px;
+
 }
 
 
 .home__item {
 
+  cursor:pointer; 
   /* 位置 */
    margin-left : 20px;
    margin-top: 50px;
+
+   
 
    -ms-writing-mode: tb-rl;
    writing-mode: vertical-rl;
@@ -180,7 +188,7 @@ li {
   color: #e9efff;
 }
 
-/* 415px以下に適用されるCSS（携帯　縦用） */
+/* 415px以下に適用されるCSS（携帯縦用） */
 @media screen and (max-width: 415px) {
   .pr_ALL{
     /* 上からの位置 */
@@ -595,7 +603,7 @@ h5{
    margin: 20px 10px;
    
    /* 枠線 */
-  background-color: rgb(211, 209, 211);
+  background-color: rgb(238, 236, 238);
   border:solid 0.01px rgb(219, 218, 219);
   
 }
@@ -615,7 +623,7 @@ h5{
 
 /* 写真の下の長方形の背景 */
 .photo_box2{
-   background: #ececeb;
+   background: #e6aee1;
    margin:1px;    
 
 
@@ -632,7 +640,7 @@ h5{
   opacity: .2;
 
   margin-top:50px;
-  margin-left:20px;
+  margin-left:-50px;
 }
 
 
