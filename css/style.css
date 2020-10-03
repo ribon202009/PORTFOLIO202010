@@ -21,7 +21,7 @@ body {
   
 
    /* cssフォルダの中に背景画像入れないと読み込まない */
-   background-image:url(1003pm.png); 
+   background-image:url(back.png); 
    background-repeat: no-repeat;    
    background-size:contain;
    background-size: cover;
@@ -31,7 +31,7 @@ body {
 /* 415px以下に適用されるCSS（携帯　縦用） */
 @media screen and (max-width: 415px) {
   body {
-    background-image:url(1003pm.png); 
+    background-image:url(back.png); 
     background-repeat: no-repeat;    
     background-size:contain;
     background-size: cover;
@@ -750,6 +750,10 @@ img {
   font-size: 20px;
   font-family: sans-serif;
   line-height: 24px;
+ 
+  /* 中央寄せ */
+  text-align: center;
+  margin-right:20px;
 }
 
 .sub-line {
@@ -805,7 +809,6 @@ img {
 
 
   .player{
-   
     /* ページ全体 上からの位置 */
     top:1700px;
   }
@@ -1111,6 +1114,7 @@ transform: translateY(-50%) translateX(0px)  scale(1);
 
   .home_last{
     color : white;
+    margin-right :10px;
     padding-bottom :10px;
     text-align: center;
    
