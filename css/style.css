@@ -536,22 +536,22 @@ h1:before {
 
   /* ⬇︎写真１つずつの枠  */
   .photoBox{
-    max-width: 80%; 
+    max-width: 190%; 
     height:auto;
-
+    text-align: center;
     display: flex;
   }
 
   /*⬇︎写真2つの枠 */
   .Photo_Box_ALL{
     flex-direction: column;
-    text-align: center;
+    /* text-align: center; */
     width: 100%;
   }
 
   /* 写真の下の長方形の背景 */
   .photo_box2{
-    max-width: 80%; 
+    max-width: 100%; 
     height:auto;
   }  
 
@@ -590,7 +590,7 @@ h5{
   justify-content: space-between;
   
  
-   max-width:80%;
+   max-width:100%;
    height:auto;
    margin: 20px 10px;
    
@@ -615,6 +615,9 @@ h5{
 .photo_box2{
    background: #ececeb;
    margin:1px;    
+
+   
+   width : 400px;
 }
 
 /* 絵のタイトル */
