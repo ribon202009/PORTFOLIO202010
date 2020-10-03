@@ -298,15 +298,34 @@ h1:before {
   width: 27%; 
 }
 
-.pr_note p{ 
-  margin-top: 65px;
+.pr_note{
+  flex-direction: column;
+  text-align: center;
+}
 
-  /* 追加1001 */
-  margin-bottom:17px;
+.pr_note p{ 
+  text-align: start;
+  margin-top: 65px;
 
   /* 枠に納める */
   margin-left : -140px;
 
+  color: #000000;
+  font-size: 14px;
+} 
+
+.pr_note2 { 
+  /* width:350px; */
+}
+
+
+.pr_note2 p{ 
+ 
+  margin-bottom:17px;
+  margin-top: 5px;;
+  /* 枠に納める */
+  margin-right : -70px;
+  text-align: start;
   color: #000000;
   font-size: 14px;
 } 
@@ -509,17 +528,30 @@ h1:before {
 
 /* 415px以下に適用されるCSS（携帯　縦用） */
 @media screen and (max-width: 415px) {
+  
   .GALLARY{
     /* ページ全体 上からの位置 */
     top:1400px;
   }
 
+  .photoBox{
+    display: flex;
+  }
 
   .Photo_Box_ALL{
     flex-direction: column;
     text-align: center;
+    width: 100%;
   }
+
+  .photo_box2{
+    width: 100%; 
+    height:auto;
+  }  
+
 }
+
+
 
 .GALLARY p {
   margin-top: 20px;
@@ -549,7 +581,6 @@ h5{
 .photoBox{
  
   display: flex;
- 
   justify-content: space-between;
   
  
@@ -557,10 +588,6 @@ h5{
    height:auto;
    margin: 20px 20px;
    
-   /* 中央寄せ */
- 
-
-
    /* 枠線 */
   background-color: rgb(211, 209, 211);
   border:solid 0.01px rgb(219, 218, 219);
@@ -573,10 +600,6 @@ h5{
    /* position: absolute;  */
    justify-content: left;
 
-   
-   max-width:100%; 
-   height:auto;
-
    /* 位置 */
   text-align: left;
   box-shadow:0 16px 19px 2px #1f1e1e;/* 影を指定（[右][下][ぼかし][広がり][影の色]） */
@@ -585,10 +608,6 @@ h5{
 /* 写真の下の長方形の背景 */
 .photo_box2{
    background: #ececeb;
-
-   max-width: auto; 
-   width : 500px;
-   height:250px;
    margin:1px;    
 }
 
