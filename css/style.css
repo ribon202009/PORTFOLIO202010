@@ -12,9 +12,6 @@ img,abbr,acronym,fieldset{border:0;}
 
 * {
    box-sizing: border-box;
-   /* width: 70%;
-   margin-left: 15%;
-   margin-right: 15%; */
 }
 
 body {
@@ -28,9 +25,17 @@ body {
    background-repeat: no-repeat;    
    background-size:contain;
    background-size: cover;
-   
-   background-color: #000000;  
 }
+
+/* 415px以下に適用されるCSS（携帯　縦用） */
+@media screen and (max-width: 415px) {
+  body {
+    background-image:url(0927_mb.png); 
+    background-repeat: no-repeat;    
+    background-size:contain;
+    background-size: cover;
+  } 
+} 
 
 header {
    /* 要素一番上9999 */
@@ -108,13 +113,6 @@ li {
 
 
 
-.swiper-container{
-
-  /* 確認用 枠線 */
-  /* border:solid #e9efff; */
-}
-
-
 /* ~●○●○~メイン画像~○●○●~ */
 .swiper-wrapper{
   /* mainの位置指定 */
@@ -150,9 +148,9 @@ li {
     max-width: 100%;
     max-height: 100%;  
  }
-
-
 } 
+
+
 /* 769px以下に適用されるCSS（縮小用） */
 @media screen and (max-width: 769px) {
   
@@ -200,11 +198,8 @@ li {
 @media screen and (max-width: 415px) {
   .pr_ALL{
     /* 上からの位置 */
-  top: 300px;
-  /* max-width : 100%; */
+  top: 260px;
   }
-
-
 }  
 
 
@@ -449,8 +444,10 @@ h1:before {
   margin-left :20px;
   color : blue;
 
+  font-size :16px;
+
   max-width:100%;
-  width : 150px;
+  width : 200px;
   
 }
 
@@ -557,8 +554,8 @@ h5{
 /*⬇︎写真2つの枠 */
 .Photo_Box_ALL{
   display: flex;
-  justify-content: center;
-  
+  /* 中央寄せ */
+  margin : 1rem 4rem;
 }
 
 
@@ -567,7 +564,7 @@ h5{
   display: flex;
   justify-content: space-between;
   
-  /* max-width: auto;  */
+ 
    max-width:90%;
    height:auto;
    margin: 20px 20px;
@@ -630,6 +627,8 @@ h5{
 
 .gl_memo p{
   font-size :11px;
+  
+  /* 日付との文章間隔 */
   padding-top:20px; 
   padding-right: 5px;
 }
@@ -1097,7 +1096,7 @@ transform: translateY(-50%) translateX(0px)  scale(1);
 
 
        /* -◼️-◼️-◼️-一番下の写真３枚の位置-◼️-◼️-◼️- */
-        top:1000px; 
+        top:1200px; 
        
    }
 .clearfix{clear:both;}
@@ -1130,8 +1129,9 @@ transform: translateY(-50%) translateX(0px)  scale(1);
 
   .home_last{
     color : white;
+    padding-bottom :10px;
     text-align: center;
-    margin-left :85px;
+   
    
     cursor:pointer
   }
