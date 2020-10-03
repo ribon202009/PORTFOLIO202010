@@ -283,7 +283,7 @@ h1:before {
 .pr h2{
   padding: 10px;
   color: #000000;
-  font-size: 35px;  
+  font-size: 25px;  
 }
 
 .pr img{
@@ -677,6 +677,9 @@ input[type=radio] {
 
    width : 1000px;
    height :900px;
+
+   /* 背景色と背景の隙間 */
+   margin : 0.2rem 1rem; 
 }
 
 img {
