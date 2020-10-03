@@ -536,7 +536,7 @@ h1:before {
 
   /* ⬇︎写真１つずつの枠  */
   .photoBox{
-    max-width: 190%; 
+    /* max-width: 100%;  */
     height:auto;
     text-align: center;
     display: flex;
@@ -603,8 +603,10 @@ h5{
 /* ⬇︎写真１枚ずつ */
 .photo2 {
    display: flex; 
-   /* position: absolute;  */
    justify-content: left;
+
+   /* 商品説明の枠と調整 */
+   max-width: 60%;
 
    /* 位置 */
   text-align: left;
@@ -616,7 +618,7 @@ h5{
    background: #ececeb;
    margin:1px;    
 
-   
+
    width : 400px;
 }
 
