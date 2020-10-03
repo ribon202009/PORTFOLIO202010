@@ -534,33 +534,24 @@ h1:before {
     top:1400px;
   }
 
+  /* ⬇︎写真１つずつの枠  */
   .photoBox{
-    max-width: 100%; 
+    max-width: 80%; 
     height:auto;
 
     display: flex;
-    /* 中央寄せ */
-    text-align: center;
-    margin : 1rem 1rem;
-
-
-   
-  justify-content: space-between;
-  
- 
   }
 
+  /*⬇︎写真2つの枠 */
   .Photo_Box_ALL{
     flex-direction: column;
     text-align: center;
-
-     /* 中央寄せ */
-    margin : 1rem 1rem;
     width: 100%;
   }
 
+  /* 写真の下の長方形の背景 */
   .photo_box2{
-    max-width: 100%; 
+    max-width: 80%; 
     height:auto;
   }  
 
@@ -588,7 +579,7 @@ h5{
   display: flex;
   
   /* 中央寄せ */
-  margin : 1rem 4rem;
+  margin : 1rem 1rem;
 }
 
 
@@ -599,9 +590,9 @@ h5{
   justify-content: space-between;
   
  
-   max-width:100%;
+   max-width:80%;
    height:auto;
-   margin: 20px 20px;
+   margin: 20px 10px;
    
    /* 枠線 */
   background-color: rgb(211, 209, 211);
@@ -658,6 +649,9 @@ h5{
   padding-top:20px; 
   padding-right: 5px;
 }
+
+
+
 
 
 
