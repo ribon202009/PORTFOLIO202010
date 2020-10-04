@@ -572,7 +572,7 @@ h1:before {
   text-align: center;
 
   /* -◼️-◼️-◼️-2枚の写真の位置-◼️-◼️-◼️- */
-  top:1060px;
+  top:1260px;
   padding-bottom: 50px;
 }
 
@@ -701,6 +701,7 @@ h5{
   color :rgb(61, 60, 61);
   margin-top :-120px;
   text-align:right;
+  padding-right : 10px;
   padding-bottom: 5px;
 }
 
@@ -709,7 +710,8 @@ h5{
   
   /* 日付との文章間隔 */
   padding-top:20px; 
-  padding-right: 5px;
+  text-align:right;
+  padding-right : 10px;
 }
 
 
@@ -863,6 +865,7 @@ img {
   display: flex;
   justify-content: space-between;
   width: 100%;
+ 
 }
 
 .subtitle, .time {
@@ -1227,7 +1230,7 @@ transform: translateY(-50%) translateX(0px)  scale(1);
     text-align: center;
 
     /*修正   */
-    margin-right:25px; 
+    margin-right:28px; 
     
     padding-bottom :10px;
    
