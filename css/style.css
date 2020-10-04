@@ -133,7 +133,10 @@ li {
    font-family: immi-five-o-five, sans-serif;
 }
 
-
+.home__item a:hover {
+  color: rgb(248, 27, 163);
+  cursor: pointer;
+} 
 
 /* ~●○●○~メイン画像~○●○●~ */
 .swiper-wrapper{
