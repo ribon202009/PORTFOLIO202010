@@ -54,7 +54,7 @@ header {
 
 /* 415px以下に適用されるCSS（携帯　縦用） */
 @media screen and (max-width: 415px) {
-header {
+  header {
   /* 要素一番上9999 */
   z-index: 9999; 
   position: fixed; 
@@ -126,7 +126,7 @@ li {
 
   /* 位置 */
    margin-left : 20px;
-   margin-top: 50px;
+   margin-top: 60px;
 
    -ms-writing-mode: tb-rl;
    writing-mode: vertical-rl;
@@ -138,7 +138,7 @@ li {
 /* ~●○●○~メイン画像~○●○●~ */
 .swiper-wrapper{
   /* mainの位置指定 */
-  margin-top : 63px;
+  margin-top : 83px;
   margin-left : 90px; 
   margin-right : 30px; 
 }
@@ -1227,7 +1227,7 @@ transform: translateY(-50%) translateX(0px)  scale(1);
     text-align: center;
 
     /*修正   */
-    margin-left:-25px;
+    margin-right:25px; 
     
     padding-bottom :10px;
    
