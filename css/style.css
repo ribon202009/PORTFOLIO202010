@@ -100,7 +100,7 @@ li {
 }
 
 .pc-nav a:hover{
-  color: rgb(10, 219, 247);
+  color: rgb(5, 176, 199);
   cursor: pointer;
 }
 
@@ -504,7 +504,7 @@ h1:before {
  button{
   cursor:pointer; 
   margin-left :20px;
-  color : blue;
+  color : rgb(4, 96, 150);
 
   font-size :16px;
 
@@ -672,7 +672,7 @@ h5{
 
 /* 写真の下の長方形の背景 */
 .photo_box2{
-   background: #e6aee1;
+   background: #e7baf8;
    margin:1px;    
 
 
@@ -709,11 +709,16 @@ h5{
   font-size :11px;
   
   /* 日付との文章間隔 */
-  padding-top:20px; 
+  padding-top:23px; 
   text-align:right;
   padding-right : 10px;
+  
 }
 
+.photoBox a:hover{
+  color: rgb(3, 95, 66);
+  cursor: pointer;
+}
 
 
 
